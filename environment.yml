@@ -1,15 +1,32 @@
 name: python_data_analysis
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - python=3.11
-  - pandas=2.1.1
-  - numpy=1.26.1
-  - matplotlib=3.8.0
-  - seaborn=0.12.2
-  - jupyterlab=4.3.0
-  - notebook=7.3.0
   - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - altair
+  - hvplot
+  - bokeh
+  - scikit-learn
+  - imbalanced-learn
+  - scipy
+  - statsmodels
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - black
+  - autopep8
+  - flake8
   - pip:
-      - datasets==2.13.1
+      - adjustText
+      - anyio
+      - beautifulsoup4
+      - requests
+      - markdown-it-py
+      - jsonpointer==2.1
