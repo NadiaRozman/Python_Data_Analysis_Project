@@ -286,7 +286,7 @@ This project demonstrates how Python's powerful data analysis ecosystem can tran
 ```
 Python_Data_Analysis_Project/
 │
-├── images/                                  # Visualization outputs
+├── images/                                  
 │   ├── 1_Likelihood_of_Skills_Requested_in_US_Job_Postings.png
 │   ├── 2_Trending_Top_Skills_for_Data_Analysts_in_the_US.png
 │   ├── 3_Salary_Distributions_of_Data_Jobs_in_the_US.png
@@ -294,16 +294,16 @@ Python_Data_Analysis_Project/
 │   ├── 5_Most_Optimal_Skills_for_Data_Analysts.png
 │   └── 6_Most_Optimal_Skills_for_Data_Analysts_with_Tech.png
 │
-├── notebooks/                              # Jupyter notebooks
+├── notebooks/                              
 │   ├── 1_EDA_Data_Science_Jobs.ipynb
 |   ├── 2_Skills_Demand.ipynb
 │   ├── 3_Skills_Trend.ipynb
 │   ├── 4_Salary_Analysis.ipynb
 │   └── 5_Optimal_Skills.ipynb
 │
-├── requirements.txt                        # Python dependencies
-├── environment.yml                         # Conda environment
-└── README.md                               # Project documentation
+├── requirements.txt                        
+├── environment.yml                         
+└── README.md                              
 ```
 
 **🔗 Connect with me:**
