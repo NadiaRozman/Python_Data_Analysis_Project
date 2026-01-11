@@ -83,6 +83,7 @@ This project showcased modern Python data analysis tools and libraries:
    ```
 
 4. **Open and run the notebooks** in the `notebooks/` directory in the following order:
+   - `1_EDA_Data_Science_Jobs.ipynb`
    - `2_Skills_Demand.ipynb`
    - `3_Skills_Trend.ipynb`
    - `4_Salary_Analysis.ipynb`
@@ -293,15 +294,15 @@ Python_Data_Analysis_Project/
 │   ├── 5_Most_Optimal_Skills_for_Data_Analysts.png
 │   └── 6_Most_Optimal_Skills_for_Data_Analysts_with_Tech.png
 │
-├── notebooks/                               # Jupyter notebooks
+├── notebooks/                              # Jupyter notebooks
 │   ├── 1_EDA_Data_Science_Jobs.ipynb
 |   ├── 2_Skills_Demand.ipynb
 │   ├── 3_Skills_Trend.ipynb
 │   ├── 4_Salary_Analysis.ipynb
 │   └── 5_Optimal_Skills.ipynb
 │
-├── requirements.txt                         # Python dependencies
-├── environment.yml                          # Conda environment
+├── requirements.txt                        # Python dependencies
+├── environment.yml                         # Conda environment
 └── README.md                               # Project documentation
 ```
 
