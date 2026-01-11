@@ -1,0 +1,15 @@
+name: python_data_analysis
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas=2.1.1
+  - numpy=1.26.1
+  - matplotlib=3.8.0
+  - seaborn=0.12.2
+  - jupyterlab=4.3.0
+  - notebook=7.3.0
+  - pip
+  - pip:
+      - datasets==2.13.1
