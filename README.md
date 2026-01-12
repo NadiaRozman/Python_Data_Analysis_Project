@@ -1,6 +1,8 @@
-# 📊 Introduction
+# Python Data Analysis Project
 
-This project explores the **data analyst job market** using Python as the primary analytical tool.  
+## 📊 Introduction
+
+This project explores the **data analyst job market** using Python as the primary analytical tool.
 The goal is to uncover:
 
 * 💰 The **highest-paying jobs** for data analysts
@@ -14,24 +16,20 @@ By leveraging Python's powerful data analysis libraries including Pandas, Matplo
 
 ## 🎯 Background
 
-The inspiration for this project came from a desire to understand:
+The inspiration for this project came from a desire to answer:
 
 > *What skills should I prioritize to maximize both employability and salary potential in data analytics?*
 
-To answer this, I focused on analyzing:
+To explore this, I focused on:
 
-1. **What are the most demanded skills for the top 3 most popular data roles?**
-2. **How are in-demand skills trending for Data Analysts?**
-3. **How well do jobs and skills pay for Data Analysts?**
-4. **What are the most optimal skills to learn for Data Analysts?**
+1. **The most demanded skills for the top 3 most popular data roles**
+2. **Trends of in-demand skills for Data Analysts**
+3. **Salary potential of jobs and skills for Data Analysts**
+4. **The most optimal skills to learn for Data Analysts**
 
-The dataset used for this project was provided by [Luke Barousse's Python Course](https://lukebarousse.com/python). It included:
+The dataset, provided by [Luke Barousse's Python Course](https://lukebarousse.com/python), includes job postings with **title, company, location, salary, schedule type, posting date, and associated skills**. 
 
-* Job postings with details on **title, company, location, salary, schedule type, and posting date**
-* Skills associated with each job (e.g., SQL, Python, Tableau, Excel)
-* Salary information for data-related positions across the United States
-
-This rich dataset enabled me to conduct a **comprehensive analysis** using Python's data manipulation and visualization capabilities.
+> While the dataset is global, this project **focuses exclusively on US positions**, enabling a comprehensive analysis of trends, demand, and compensation in the US data analytics landscape using Python’s data manipulation and visualization capabilities.
 
 ---
 
@@ -44,7 +42,7 @@ This project showcased modern Python data analysis tools and libraries:
 * **Matplotlib** – used for creating foundational data visualizations
 * **Seaborn** – provided enhanced statistical visualizations
 * **Jupyter Notebooks** – interactive environment for combining code, visualizations, and narrative
-* **Visual Studio Code** – my development environment for managing notebooks and scripts
+* **Visual Studio Code** – development environment for managing notebooks and scripts
 * **Git & GitHub** – version control and project hosting
 
 ---
@@ -105,6 +103,7 @@ To identify the most in-demand skills for the top three data roles, I filtered j
 
 ![Likelihood of Skills Requested in US Job Postings](images/1_Likelihood_of_Skills_Requested_in_US_Job_Postings.png)  
 *Bar graph visualizing the likelihood of skills being requested in US job postings for Data Analysts, Data Engineers, and Data Scientists.*
+> All analyses and visualizations are based on the US-focused subset of the global dataset.
 
 - **SQL** is the most fundamental skill across all three roles, appearing in 48% of Data Analyst jobs, 66% of Data Engineer jobs, and 48% of Data Scientist jobs.
 - **Python** is highly versatile and critical, especially for Data Scientists (70%) and Data Engineers (64%), while appearing in 28% of Data Analyst positions.
@@ -124,6 +123,7 @@ To understand how skill demand evolves throughout the year, I filtered the datas
 
 ![Trending Top Skills for Data Analysts in the US](images/2_Trending_Top_Skills_for_Data_Analysts_in_the_US.png)  
 *Line graph visualizing the trending top skills for data analysts in the US throughout 2024.*
+> All analyses and visualizations are based on the US-focused subset of the global dataset.
 
 - **SQL** remains the most consistently demanded skill throughout the year, peaking around August at nearly 70%, though it shows a gradual decline toward year-end, settling around 53%.
 - **Excel** shows the most dramatic growth, starting at 30% in January and surging to 48% by October, then dropping to 34% in November before rising to 42% in December.
@@ -147,6 +147,7 @@ To understand salary distributions and identify which skills command the highest
 
 ![Salary Distributions of Data Jobs in the US](images/3_Salary_Distributions_of_Data_Jobs_in_the_US.png)  
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
+> All analyses and visualizations are based on the US-focused subset of the global dataset.
 
 - **Senior Data Scientist** and **Senior Data Engineer** roles command the highest median salaries, with ranges extending beyond $200K, showcasing the premium placed on seniority and specialized technical expertise.
 - **Data Scientist** positions show wide salary variance with many outliers reaching $250K+, indicating significant pay differences based on experience, company, and specialization.
@@ -158,6 +159,7 @@ To understand salary distributions and identify which skills command the highest
 
 ![Highest Paid Skills for Data Analysts in the US](images/4_Highest_Paid_and_Most_In_Demand_Skills_for_Data_Analysts_in_the_US.png)  
 *Two bar graphs: Top graph shows the highest paid skills; bottom graph shows the most in-demand skills for data analysts.*
+> All analyses and visualizations are based on the US-focused subset of the global dataset.
 
 **Highest Paid Skills:**
 - **Specialized and niche tools** dominate the top-paying skills: Unreal ($230K+), Blazor, Fortran, MariaDB, and NoSQL all command salaries around $160K-$180K.
@@ -181,7 +183,8 @@ To identify the most strategic skills to learn, I combined demand data with sala
 **Key Insights:**
 
 ![Optimal Skills for Data Analysts](images/5_Most_Optimal_Skills_for_Data_Analysts.png)  
-*Scatter plot visualizing the most optimal skills (high paying AND in demand) for data analysts in the US.*
+*Scatter plot visualizing the most optimal skills (high-paying and in-demand) for data analysts in the US.*
+> All analyses and visualizations are based on the US-focused subset of the global dataset.
 
 - **SQL and Python** are the **highest-value skills**, appearing in approximately 50% and 32% of job postings respectively, while offering strong salaries around $97K-$100K. These represent the optimal combination of ubiquity and compensation.
 - **Tableau** strikes an excellent balance, appearing in about 28% of jobs with a competitive salary around $98K, making it a highly strategic visualization skill to master.
@@ -193,6 +196,7 @@ To identify the most strategic skills to learn, I combined demand data with sala
 
 ![Optimal Skills by Technology Type](images/6_Most_Optimal_Skills_for_Data_Analysts_with_Tech.png)  
 *Scatter plot with color coding distinguishing between programming skills (orange) and analyst tools (blue).*
+> All analyses and visualizations are based on the US-focused subset of the global dataset.
 
 When we separate **programming skills** (orange) from **analyst tools** (blue), a clear pattern emerges:
 
@@ -282,7 +286,7 @@ This project demonstrates how Python's powerful data analysis ecosystem can tran
 
 ### ✨ Created by Nadia Rozman | January 2026
 
-**📂 Project Structure:**
+**📂 Project Structure**
 ```
 Python_Data_Analysis_Project/
 │
@@ -306,7 +310,7 @@ Python_Data_Analysis_Project/
 └── README.md                              
 ```
 
-**🔗 Connect with me:**
+**🔗 Connect with me**
 - GitHub: [@NadiaRozman](https://github.com/NadiaRozman)
 - LinkedIn: [Nadia Rozman](https://www.linkedin.com/in/nadia-rozman-4b4887179/)
 
